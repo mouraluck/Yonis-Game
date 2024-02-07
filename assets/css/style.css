@@ -1,0 +1,61 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+#container {
+    background: #ffcb5a;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    height: 100vh;
+    position: relative; /* Adicionado para posicionar o contador */
+       
+}
+#counter {
+    position: fixed;
+    top: 200;
+    left: 50%;
+    transform: translateX(-50%);
+}
+span {
+    display: none;
+}
+button {
+    border: none;
+    background: none;
+}
+img {
+    display: inline-block;
+  }
+  
+  img {
+    border: none;
+    padding: 0;
+    background: none;
+    position: relative; /* Necessário para posicionamento do pseudo-elemento */
+    overflow: hidden; /* Esconder qualquer overflow da imagem */
+  }
+  
+  img {
+    display: block;
+    
+    height: auto; /* Altura ajustável */
+    transition: opacity 0.3s ease; /* Transição suave */
+  }
+  
+  img:hover  {
+    opacity: 0.5; /* Opacidade da imagem ao passar o mouse */
+  }
+  #you-win {
+    display: none;
+    font-size: 36px;
+    color: green;
+    font-weight: bold;
+    margin-top: 50px;
+}
+  
+  
+  
