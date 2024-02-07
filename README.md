@@ -1,2 +1,2 @@
 ## Printscreen
- <img src="1.jpg" width = "400px">
+ <img src="1.png" width = "400px">
