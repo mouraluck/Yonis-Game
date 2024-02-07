@@ -1,2 +1,2 @@
 ## Printscreen
-<img src:"assets/img/1.jpg">
+ <img width = "400px "src="1.jpg">
